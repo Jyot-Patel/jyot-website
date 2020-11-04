@@ -2,6 +2,9 @@
     var canvas = document.getElementById("canvas");
     var c = canvas.getContext('2d');
 
+    window.addEventListener('resize', function () { 
+    window.location.reload(); 
+    });
 
     canvas.height = window.innerHeight;
     canvas.width = window.innerWidth - 50;
@@ -10,11 +13,6 @@
         x: undefined,
         y: undefined,
     };
-
-    window.addEventListener("resize", function () {
-        canvas.width = window.innerWidth;
-    });
-
 
     canvas.addEventListener("mousemove", function (event) {
         mouse.x = event.x;
