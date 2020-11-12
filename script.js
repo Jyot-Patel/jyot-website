@@ -31,6 +31,9 @@
 
         this.draw = function () {
             c.beginPath();
+            if(this.chosenColor=='black'){
+               this.chosenColor='yellow';
+            }
             c.fillStyle = this.chosenColor;
             c.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, true);
             c.fill();
