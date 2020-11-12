@@ -31,9 +31,6 @@
 
         this.draw = function () {
             c.beginPath();
-            if(this.chosenColor=='black'){
-               this.chosenColor='yellow';
-            }
             c.fillStyle = this.chosenColor;
             c.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, true);
             c.fill();
@@ -184,7 +181,7 @@
             ySpeed = (Math.random() - 0.5) * 10;
         }
 
-        var colors = ["aqua", "Red", "violet", "yellow", "pink", "rgba(50,560,20,1)"];
+        var colors = ["aqua", "Red", "violet", "yellow", "pink"];
         var indexColor = Math.round(Math.random() * colors.length);
         var chosenColor = colors[indexColor];
 
