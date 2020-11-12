@@ -7,7 +7,7 @@
     });
 
     canvas.height = window.innerHeight;
-    canvas.width = window.innerWidth - 50;
+    canvas.width = window.innerWidth;
 
     var mouse = {
         x: undefined,
@@ -17,8 +17,6 @@
     canvas.addEventListener("mousemove", function (event) {
         mouse.x = event.x;
         mouse.y = event.y;
-
-
     });
 
     function Circle(x, y, radius, xSpeed, ySpeed, chosenColor) {
