@@ -150,11 +150,9 @@
         c.fillText("Jyot Patel", canvas.width / 2, canvas.height / 2 - 30);
         c.fill();
 
+      
         c.font = "50px Create Round";
-        c.fillText("A professional ", canvas.width / 2, canvas.height / 2 + 30);
-        c.fill();
-        c.font = "50px Create Round";
-        c.fillText("web developer", canvas.width / 2, canvas.height / 2 + 70);
+        c.fillText("A Web Developer", canvas.width / 2, canvas.height / 2 + 70);
         c.fill();
 
         c.drawImage(img1, xPosition, yPosition, cloudWidth, cloudHeight);
