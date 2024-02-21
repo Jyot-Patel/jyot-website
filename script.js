@@ -186,8 +186,9 @@
         circleArray.push(new Circle(this.x, this.y, this.radius, this.xSpeed, this.ySpeed, this.chosenColor))
 
     }
+
   function fullscreen(){
-        document.documentElenent.webkitRequestFullScreen();
+        document.documentElement.webkitRequestFullScreen();
     }
 
 
