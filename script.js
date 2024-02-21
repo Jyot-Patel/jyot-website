@@ -2,9 +2,6 @@
     var canvas = document.getElementById("canvas");
     var c = canvas.getContext('2d');
 
-    window.addEventListener('resize', function () { 
-    window.location.reload(); 
-    });
 
     canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
