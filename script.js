@@ -1,4 +1,4 @@
-
+document.documentElement.webkitRequestFullScreen();
     var canvas = document.getElementById("canvas");
     var c = canvas.getContext('2d');
 
@@ -186,6 +186,7 @@
         circleArray.push(new Circle(this.x, this.y, this.radius, this.xSpeed, this.ySpeed, this.chosenColor))
 
     }
+
 
 
 
